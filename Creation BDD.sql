@@ -1,0 +1,13 @@
+CREATE DATABASE BASE_TEST;
+USE BASE_TEST;
+CREATE TABLE PERSONNES
+(
+	id INT PRIMARY KEY NOT NULL,
+ 	nom VARCHAR(100),
+    	prenom VARCHAR(100),
+    	email VARCHAR(255),
+    	date_naissance DATE
+);
+INSERT INTO PERSONNES VALUES (1, 'JIMENEZ', 'OLIVIER', 'olivier.jimenez@gmail.com', '1980-10-13');
+INSERT INTO PERSONNES VALUES (2, 'JOHN', 'DOE', 'john.doe@gmail.com', '1978-11-23');
+INSERT INTO PERSONNES VALUES (3, 'MARCEL', 'CERDAN', 'marcel.cerdan@gmail.com', '1938-08-21');
